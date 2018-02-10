@@ -252,10 +252,10 @@ function fillInAddress(){
       }
 
 
-var addressInputElement = $('#autocomplete');
-addressInputElement.on('focus', function () {
-  var pacContainer = $('.pac-container');
-  $(addressInputElement.parent()).append(pacContainer);
+var lostAu = $('#autocomplete');
+lostAu.on('focus', function () {
+  var pacC = $('.pac-container');
+  $(lostAu.parent()).append(pacC);
 })
 
 //-----AUTOCOMPLETE FOR FIND MODAL
